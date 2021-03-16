@@ -80,3 +80,9 @@ Nudimo mogućnost plaćanja putem kreditne kartice, paypal-a ili prilikom preuzi
 * brisanje korisnika
 * održavanje i ažuriranje 
 * mogućnost pregleda svih registrovanih korisnika
+
+# Akteri:
+
+* Gost
+* Korisnik
+* Administrator
