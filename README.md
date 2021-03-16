@@ -28,7 +28,7 @@ Nudimo mogućnost plaćanja putem kreditne kartice, paypal-a ili prilikom preuzi
 # Funkcionalnosti:
 ----------------------
 
-## Pogled-korisnik:
+## Pogled - Korisnik:
 * registracija korisnika 
 	- postojeći (mail i šifra),
 	- novi korisnik (ime, prezime, šifra, adresa, mail, broj telefona),
@@ -54,3 +54,29 @@ Nudimo mogućnost plaćanja putem kreditne kartice, paypal-a ili prilikom preuzi
 * feedback
 	- ocjena
 	- komentar
+
+## Pogled - Gost:
+* pregled ponude (bez mogućnosti narudžbe - READ-ONLY)
+	- Restoran
+		- lokacija
+		- vrsta hrane (slatko/slano, junk food/healthy food)
+		- omiljeni restoran
+	- Prodavnica
+		- namirnice
+		- kućanske potrepštine
+		- ostalo
+	- Apoteka
+		- lijekovi sa receptom
+		- lijekovi bez recepta
+
+## Pogled - Administrator
+* unos:
+	- restorani
+		-informacije o restoranu (adresa, radno vrijeme, ocjena restorana)
+		-meni (opis jela, cijena)
+	- prodavnice
+		- informacije (adresa, radno vrijeme)
+		- ponuda
+	- apoteke
+		- informacije (adresa, radno vrijeme)
+	- brisanje korisnika
