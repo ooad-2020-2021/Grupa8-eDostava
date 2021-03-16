@@ -5,7 +5,7 @@
 
 ----------------------
 
-Članovi:
+# Članovi:
 ----------------------
 
 * [Ina Mujaković](https://github.com/inamujakovic)
@@ -28,7 +28,7 @@ Nudimo mogućnost plaćanja putem kreditne kartice, paypal-a ili prilikom preuzi
 # Funkcionalnosti:
 ----------------------
 
-## Pogled - Korisnik:
+## Pogled - Korisnik
 * registracija korisnika 
 	- postojeći (mail i šifra),
 	- novi korisnik (ime, prezime, šifra, adresa, mail, broj telefona),
@@ -55,7 +55,7 @@ Nudimo mogućnost plaćanja putem kreditne kartice, paypal-a ili prilikom preuzi
 	- ocjena
 	- komentar
 
-## Pogled - Gost:
+## Pogled - Gost
 * pregled ponude (bez mogućnosti narudžbe - READ-ONLY)
 	- Restoran
 		- lokacija
