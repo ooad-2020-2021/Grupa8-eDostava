@@ -30,9 +30,9 @@ Nudimo mogućnost plaćanja putem kreditne kartice, paypal-a ili prilikom preuzi
 
 ## Pogled-korisnik:
 * registracija korisnika: 
-		- postojeći(LOGIN:mail i šifra),
-		- novi korisnik(ime, prezime, šifra, adresa, mail, broj telefona),
-		- gost(nema mogućnost izvršenja narudžbe)
+	- postojeći(LOGIN:mail i šifra),
+	- novi korisnik(ime, prezime, šifra, adresa, mail, broj telefona),
+	- gost(nema mogućnost izvršenja narudžbe)
 * pretraga:
 		- Restoran:
 			- lokacija
