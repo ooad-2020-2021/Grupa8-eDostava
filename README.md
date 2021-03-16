@@ -14,7 +14,6 @@
 
 # Opis teme:
 ----------------------
-
 S obzirom da je čitav svijet zahvatila globalna pandemija uzrokovana virusom COVID-19 i da mnogi nisu u mogućnosti da odlaze u kupovinu, što zbog straha,
 što zbog izolacije u kojoj se nalaze kao i niza drugih razloga, mi smo napravili web-aplikaciju u kojoj nudimo uslugu dostave prijeko potrebnih životnih potrepština.
 Korisnici aplikacije imaju mogućnost odabira da li žele gotova jela iz restorana, lijekove iz apoteke ili namirnice iz trgovine.
@@ -27,7 +26,6 @@ Nudimo mogućnost plaćanja putem kreditne kartice, paypal-a ili prilikom preuzi
 
 # Funkcionalnosti:
 ----------------------
-
 ## Pogled - Korisnik
 * registracija korisnika 
 	- postojeći (mail i šifra),
