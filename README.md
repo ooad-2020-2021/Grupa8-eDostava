@@ -85,7 +85,7 @@ Nudimo mogućnost plaćanja putem kreditne kartice, paypal-a ili prilikom preuzi
 * mogućnost pregleda svih registrovanih korisnika
 
 # Akteri:
--------------------------
+--------------------------
 
 * Gost
 * Korisnik
