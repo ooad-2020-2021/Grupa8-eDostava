@@ -1,8 +1,13 @@
-###Grupa 8 - eDostava
+### Grupa8 - eDostava
+----------------------
 
+# Tema: Online dostava (eDostava)
+
+----------------------
 
 Članovi:
--------------------
+----------------------
+
 + * Ina Mujaković
 + * Ema Kalmar
 + * Rijad Zejnilović
