@@ -8,7 +8,7 @@
 Članovi:
 ----------------------
 
-+ * Ina Mujaković
-+ * Ema Kalmar
-+ * Rijad Zejnilović
+* [Ina Mujaković](https://github.com/inamujakovic)
+* [Ema Kalmar](https://github.com/ekalmar1)
+* [Rijad Zejnilović](https://github.com/Riqui10)
 
