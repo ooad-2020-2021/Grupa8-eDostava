@@ -70,7 +70,7 @@ Nudimo mogućnost plaćanja putem kreditne kartice, paypal-a ili prilikom preuzi
 		- lijekovi bez recepta
 
 ## Pogled - Administrator
-* unos:
+* unos
 	- restorani
 		-informacije o restoranu (adresa, radno vrijeme, ocjena restorana)
 		-meni (opis jela, cijena)
@@ -79,4 +79,6 @@ Nudimo mogućnost plaćanja putem kreditne kartice, paypal-a ili prilikom preuzi
 		- ponuda
 	- apoteke
 		- informacije (adresa, radno vrijeme)
-	- brisanje korisnika
+* brisanje korisnika
+* održavanje i ažuriranje 
+* mogućnost pregleda svih registrovanih korisnika
