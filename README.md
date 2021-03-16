@@ -3,7 +3,7 @@
 
 # Tema: Online dostava (eDostava)
 
-----------------------
+
 
 # Članovi:
 
@@ -25,7 +25,7 @@ Korisnik ima mogućnost praćenja narudžbe od trenutka slanja narudžbe do tren
 Nudimo mogućnost plaćanja putem kreditne kartice, paypal-a ili prilikom preuzimanja narudžbe. 
 
 # Funkcionalnosti:
-----------------------
+
 ## Pogled - Korisnik
 * registracija korisnika 
 	- postojeći (mail i šifra),
