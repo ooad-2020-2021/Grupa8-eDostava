@@ -3,16 +3,18 @@
 
 # Tema: Online dostava (eDostava)
 
-
+-------------------------
 
 # Članovi:
 
+-------------------------
 
 * [Ina Mujaković](https://github.com/inamujakovic)
 * [Ema Kalmar](https://github.com/ekalmar1)
 * [Rijad Zejnilović](https://github.com/Riqui10)
 
 # Opis teme:
+-------------------------
 
 S obzirom da je čitav svijet zahvatila globalna pandemija uzrokovana virusom COVID-19 i da mnogi nisu u mogućnosti da odlaze u kupovinu, što zbog straha,
 što zbog izolacije u kojoj se nalaze kao i niza drugih razloga, mi smo napravili web-aplikaciju u kojoj nudimo uslugu dostave prijeko potrebnih životnih potrepština.
@@ -25,6 +27,7 @@ Korisnik ima mogućnost praćenja narudžbe od trenutka slanja narudžbe do tren
 Nudimo mogućnost plaćanja putem kreditne kartice, paypal-a ili prilikom preuzimanja narudžbe. 
 
 # Funkcionalnosti:
+-------------------------
 
 ## Pogled - Korisnik
 * registracija korisnika 
@@ -82,6 +85,7 @@ Nudimo mogućnost plaćanja putem kreditne kartice, paypal-a ili prilikom preuzi
 * mogućnost pregleda svih registrovanih korisnika
 
 # Akteri:
+-------------------------
 
 * Gost
 * Korisnik
