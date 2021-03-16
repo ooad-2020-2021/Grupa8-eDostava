@@ -29,28 +29,28 @@ Nudimo mogućnost plaćanja putem kreditne kartice, paypal-a ili prilikom preuzi
 ----------------------
 
 ## Pogled-korisnik:
-* registracija korisnika: 
-	- postojeći(LOGIN:mail i šifra),
-	- novi korisnik(ime, prezime, šifra, adresa, mail, broj telefona),
-	- gost(nema mogućnost izvršenja narudžbe)
-* pretraga:
-	- Restoran:
+* registracija korisnika 
+	- postojeći (mail i šifra),
+	- novi korisnik (ime, prezime, šifra, adresa, mail, broj telefona),
+	- gost (nema mogućnost izvršenja narudžbe)
+* pretraga
+	- Restoran
 		- lokacija
-		- vrsta hrane(slatko/slano, junk food/healthy food)
+		- vrsta hrane (slatko/slano, junk food/healthy food)
 		- omiljeni restoran
-	- Prodavnica:
+	- Prodavnica
 		- namirnice
 		- kućanske potrepštine
 		- ostalo
-	- Apoteka:
+	- Apoteka
 		- lijekovi sa receptom
 		- lijekovi bez recepta  
  
 * praćenje narudžbe
-* plaćanje:
+* plaćanje
 	- kreditna kartica
 	- PayPal
-	- plaćanjem pri preuzimanju
+	- plaćanje pri preuzimanju
 * feedback
 	- ocjena
 	- komentar
