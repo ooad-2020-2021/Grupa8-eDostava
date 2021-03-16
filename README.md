@@ -24,3 +24,33 @@ U slučaju odabira "Prodavnica", korisnik može birati između namirnica, kućan
 Naš tim prati iz kojeg dijela grada je narudžba izvršena, te vozač koji je najbliži datoj adresi obavlja dostavu kako bi što prije narudžba bila na vratima korisnika.
 Korisnik ima mogućnost praćenja narudžbe od trenutka slanja narudžbe do trenutka pristizanja iste.
 Nudimo mogućnost plaćanja putem kreditne kartice, paypal-a ili prilikom preuzimanja narudžbe. 
+
+# Funkcionalnosti:
+----------------------
+
+## Pogled-korisnik:
+* registracija korisnika: 
+		*postojeći(LOGIN:mail i šifra),
+		*novi korisnik(ime, prezime, šifra, adresa, mail, broj telefona),
+		*gost(nema mogućnost izvršenja narudžbe)
+* pretraga:
+		*Restoran:
+			-lokacija
+			-vrsta hrane(slatko/slano, junk food/healthy food)
+			-omiljeni restoran
+		*Prodavnica:
+			-namirnice
+			-kućanske potrepštine
+			-ostalo
+		*Apoteka:
+			-lijekovi sa receptom
+			-lijekovi bez recepta  
+ 
+* praćenje narudžbe
+* plaćanje:
+		*kreditna kartica
+		*PayPal
+		*plaćanjem pri preuzimanju
+* feedback
+		*ocjena
+		*komentar
