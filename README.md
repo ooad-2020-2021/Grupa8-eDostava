@@ -76,13 +76,13 @@ Nudimo mogućnost plaćanja putem kreditne kartice, PayPal-a ili prilikom preuzi
 
 ## Pogled - Administrator
 * unos
-	- restorani
+	- Restorani
 		-informacije o restoranu (adresa, radno vrijeme, ocjena restorana)
 		-meni (opis jela, cijena)
-	- prodavnice
+	- Prodavnice
 		- informacije (adresa, radno vrijeme)
 		- ponuda
-	- apoteke
+	- Apoteke
 		- informacije (adresa, radno vrijeme)
 * brisanje korisnika
 * održavanje i ažuriranje 
