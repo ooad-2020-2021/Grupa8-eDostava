@@ -13,7 +13,7 @@
 
 -------------------------
 
-* [Ina Mujaković](https://github.com/inamujakovic)
+* [Ina-Bedra Mujaković](https://github.com/inamujakovic)
 * [Ema Kalmar](https://github.com/ekalmar1)
 * [Rijad Zejnilović](https://github.com/Riqui10)
 
