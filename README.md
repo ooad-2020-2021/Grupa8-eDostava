@@ -28,7 +28,7 @@ U slučaju odabira "Prodavnica", korisnik može birati između namirnica, kućan
 Što se tiče kategorije "Apoteka", nudimo dostavu svih vrsta lijekova koje nudi državna apoteka.
 Naš tim prati iz kojeg dijela grada je narudžba izvršena, te vozač koji je najbliži datoj adresi obavlja dostavu kako bi što prije narudžba bila na vratima korisnika.
 Korisnik ima mogućnost praćenja narudžbe od trenutka slanja narudžbe do trenutka pristizanja iste.
-Nudimo mogućnost plaćanja putem kreditne kartice, paypal-a ili prilikom preuzimanja narudžbe. 
+Nudimo mogućnost plaćanja putem kreditne kartice, PayPal-a ili prilikom preuzimanja narudžbe. 
 
 # Funkcionalnosti:
 --------------------------
