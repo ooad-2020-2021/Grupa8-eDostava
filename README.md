@@ -34,55 +34,56 @@ Nudimo mogućnost plaćanja putem kreditne kartice, PayPal-a ili prilikom preuzi
 --------------------------
 
 ## Korisnik
-* Registracija korisnika 
+* Registracija korisnika: 
 	- postojeći (mail i šifra),
 	- novi korisnik (ime, prezime, šifra, adresa, mail, broj telefona),
 	- gost (nema mogućnost izvršenja narudžbe)
-* Pretraga
-	- Restoran
+* Pretraga:
+	- Restoran:
 		- lokacija
 		- vrsta hrane (slatko/slano, junk food/healthy food)
 		- omiljeni restoran
-	- Prodavnica
+	- Prodavnica:
 		- namirnice
 		- kućanske potrepštine
 		- ostalo
-	- Apoteka
-		- lijekovi sa receptom
+	- Apoteka:
+		- lijekovi sa receptom (putem mobilnog uređaja se uslika recept i izvrši se upload slike recepta na web-stranicu) 
 		- lijekovi bez recepta  
  
-* Praćenje narudžbe
-* Plaćanje
+* Praćenje narudžbe:
+	-na mobilni uređaj stiže poruka za koliko će narudžba biti dostavljena 
+* Plaćanje:
 	- kreditna kartica
 	- PayPal
 	- plaćanje pri preuzimanju
-* Feedback
+* Feedback:
 	- ocjena
 	- komentar
 
 ## Gost
-* Pregled ponude (bez mogućnosti narudžbe - READ-ONLY)
-	- Restoran
+* Pregled ponude (bez mogućnosti narudžbe - READ-ONLY):
+	- Restoran:
 		- lokacija
 		- vrsta hrane (slatko/slano, junk food/healthy food)
 		- omiljeni restoran
-	- Prodavnica
+	- Prodavnica:
 		- namirnice
 		- kućanske potrepštine
 		- ostalo
-	- Apoteka
+	- Apoteka:
 		- lijekovi sa receptom
 		- lijekovi bez recepta
 
 ## Administrator
-* Unos
-	- Restorani
+* Unos:
+	- Restorani:
 		- informacije o restoranu (adresa, radno vrijeme, ocjena restorana)
 		- meni (opis jela, cijena)
-	- Prodavnice
+	- Prodavnice:
 		- informacije (adresa, radno vrijeme)
 		- ponuda
-	- Apoteke
+	- Apoteke:
 		- informacije (adresa, radno vrijeme)
 * Brisanje korisnika
 * Održavanje i ažuriranje sistema
