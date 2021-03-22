@@ -5,7 +5,7 @@
 
 -------------------------
 
-![cestitka](https://user-images.githubusercontent.com/73383543/111393149-75990880-86b8-11eb-9852-3ff56b5c5651.png)
+![viber_image_2021-03-22_14-31-27](https://user-images.githubusercontent.com/73022116/111998118-ff632e80-8b1b-11eb-8c74-00a810c31ca0.png)
 
 -------------------------
 
