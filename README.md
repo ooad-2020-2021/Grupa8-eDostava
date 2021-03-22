@@ -53,6 +53,7 @@ Nudimo mogućnost plaćanja putem kreditne kartice, PayPal-a ili prilikom preuzi
  
 * Praćenje narudžbe:
 	- na mobilni uređaj stiže poruka za koliko će narudžba biti dostavljena 
+	- moguće je locirati narudžbu u svakom trenutku
 * Plaćanje:
 	- kreditna kartica
 	- PayPal
