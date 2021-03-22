@@ -52,7 +52,7 @@ Nudimo mogućnost plaćanja putem kreditne kartice, PayPal-a ili prilikom preuzi
 		- lijekovi bez recepta  
  
 * Praćenje narudžbe:
-	-na mobilni uređaj stiže poruka za koliko će narudžba biti dostavljena 
+	- na mobilni uređaj stiže poruka za koliko će narudžba biti dostavljena 
 * Plaćanje:
 	- kreditna kartica
 	- PayPal
