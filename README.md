@@ -81,13 +81,15 @@ Nudimo mogućnost plaćanja putem kreditne kartice, PayPal-a ili prilikom preuzi
 	- Restorani:
 		- informacije o restoranu (adresa, radno vrijeme, ocjena restorana)
 		- meni (opis jela, cijena)
+		- akcijska ponuda (srijedom svi restorani imaju popust od 15% na kompletan meni)
 	- Prodavnice:
 		- informacije (adresa, radno vrijeme)
 		- ponuda
 	- Apoteke:
 		- informacije (adresa, radno vrijeme)
 * Brisanje korisnika
-* Održavanje i ažuriranje sistema
+* Održavanje i ažuriranje sistema:
+	- U slučaju da korisničkom računu niko nije pristupio duže od jedne godine, račun se briše
 * Mogućnost pregleda svih registrovanih korisnika
 
 # Akteri:
