@@ -99,8 +99,7 @@ Prilikom otvaranja web aplikacije, korisnik će biti u prilici da se prijavi. Uk
 
 Nakon završetka prijave, korisnik je u mogućnosti da bira između restorana, prodavnice ili apoteke. U slučaju da se izabere restoran, pruža se mogućnost pretrage po lokaciji (u blizini) i/ili vrsti hrane (slatko/slano, junk food/healthy food). Ukoliko se odabere prodavnica, nudi se mogućnost izbora između namirnica (hrana i piće), kućanskih potrepština i ostalog. Ako korisnik izabere apoteku, bit će u mogućnosti da izabere kupovinu lijekova s receptom, odnosno bez recepta. Ako su mu potrebni lijekovi koji se prodaju uz recept, korisnik će biti u mogućnosti da svoj recept uslika i izvrši upload na web stranicu. 
 
-Kada se narudžba prihvati, korisniku na mobilni uređaj stiže poruka za koliko će narudžba biti na njegovoj adresi. Pored toga, moguće je locirati narudžbu u svakom trenutku. Plaćanje se može obaviti na tri načina: kreditnom karticom, gotovinom ili PayPalom. Pri preuzimanju narudžbe, korisnik ima opciju da ostavi komentar i ocjenu.
-Korisnik – Gost ima mogućnost pregleda ponude.
+Kada se narudžba prihvati, korisniku na mobilni uređaj stiže poruka za koliko će narudžba biti na njegovoj adresi. Pored toga, moguće je locirati narudžbu u svakom trenutku. Plaćanje se može obaviti na tri načina: kreditnom karticom, gotovinom ili PayPalom. Pri preuzimanju narudžbe, korisnik ima opciju da ostavi komentar i ocjenu. Korisnik – Gost ima mogućnost pregleda ponude.
 
 Administrator web aplikacije je u mogućnosti da unosi nove, odnosno ažurira postojeće restorane, prodavnice i/ili apoteke. Prilikom unosa novih objekata, administrator unosi osnovne informacije. Administrator je u mogućnosti da vidi sve registrovane korisnike. U slučaju da korisničkom računu nitko nije pristupio duže od jedne godine, admin je u mogućnosti da isti obriše. Zaduženje administratora je da sistem održava i ažurira po potrebi.
 
