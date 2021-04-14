@@ -1,0 +1,12 @@
+Klase:
+
+Korisnik
+Proizvod
+Narudzba
+Pretraga
+Pracenje narudzbe
+Placanje
+Korpa
+Gost
+Feedback
+Administrator
