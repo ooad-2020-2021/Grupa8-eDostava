@@ -15,5 +15,10 @@ namespace eDostava.Data
         }
 
         public DbSet<eDostava.Models.Proizvod> Proizvod { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Proizvod>().ToTable("Proizvod");
+        }
     }
 }

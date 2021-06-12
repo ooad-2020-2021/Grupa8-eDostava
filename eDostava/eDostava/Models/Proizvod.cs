@@ -10,10 +10,11 @@ namespace eDostava.Models
 {
     public class Proizvod
     {
-        [DisplayName("Identifikator:")]
+        [DisplayName("Redni broj:")]
         
         public int ID { get; set; }
-        [DisplayName("Test1")]
+
+        [DisplayName("Naziv proizvoda")]
         [Required]
         [RegularExpression(@"[A-Z|a-z| ]*")]
         public string Naziv { get; set; }

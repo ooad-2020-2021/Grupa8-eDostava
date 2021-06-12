@@ -12,34 +12,29 @@ namespace eDostava.Controllers
 {
     public class ProizvodiController : Controller
     {
-        static List<Proizvod> proizvodi = new List<Proizvod>()
-        {
-            new Proizvod(1, "OOAD", 6.0),
-            new Proizvod(2, "af", 3.0),
-            new Proizvod(3, "ba", 4.0),
-            new Proizvod(4, "sa", 5.0)
-        };
+        private readonly eDostavaContext _context;
 
         public ProizvodiController(eDostavaContext context)
         {
-            
+            _context = context;
         }
 
         // GET: Proizvodi
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View(proizvodi);
+            return View(await _context.Proizvod.ToListAsync());
         }
 
         // GET: Proizvodi/Details/5
-        public IActionResult Details(int? id)
+        public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var proizvod = proizvodi.Find(m => m.ID == id);
+            var proizvod = await _context.Proizvod
+                .FirstOrDefaultAsync(m => m.ID == id);
             if (proizvod == null)
             {
                 return NotFound();
@@ -59,25 +54,26 @@ namespace eDostava.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create([Bind("ID,Naziv,ECTS")] Proizvod proizvod)
+        public async Task<IActionResult> Create([Bind("ID,Naziv,ECTS")] Proizvod proizvod)
         {
             if (ModelState.IsValid)
             {
-                proizvodi.Add(proizvod);
+                _context.Add(proizvod);
+                await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
             return View(proizvod);
         }
 
         // GET: Proizvodi/Edit/5
-        public IActionResult Edit(int? id)
+        public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var proizvod = proizvodi.Find(p => p.ID == id);
+            var proizvod = await _context.Proizvod.FindAsync(id);
             if (proizvod == null)
             {
                 return NotFound();
@@ -90,7 +86,7 @@ namespace eDostava.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Edit(int id, [Bind("ID,Naziv,ECTS")] Proizvod proizvod)
+        public async Task<IActionResult> Edit(int id, [Bind("ID,Naziv,ECTS")] Proizvod proizvod)
         {
             if (id != proizvod.ID)
             {
@@ -101,9 +97,8 @@ namespace eDostava.Controllers
             {
                 try
                 {
-                    Proizvod p = proizvodi.Find(pr => pr.ID == proizvod.ID);
-                    proizvodi.Remove(p);
-                    proizvodi.Add(proizvod);
+                    _context.Update(proizvod);
+                    await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -122,14 +117,15 @@ namespace eDostava.Controllers
         }
 
         // GET: Proizvodi/Delete/5
-        public IActionResult Delete(int? id)
+        public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var proizvod = proizvodi.Find(m => m.ID == id);
+            var proizvod = await _context.Proizvod
+                .FirstOrDefaultAsync(m => m.ID == id);
             if (proizvod == null)
             {
                 return NotFound();
@@ -141,17 +137,17 @@ namespace eDostava.Controllers
         // POST: Proizvodi/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public IActionResult DeleteConfirmed(int id)
+        public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var proizvod = proizvodi.Find(p => p.ID == id);
-            proizvodi.Remove(proizvod);
-            
+            var proizvod = await _context.Proizvod.FindAsync(id);
+            _context.Proizvod.Remove(proizvod);
+            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool ProizvodExists(int id)
         {
-            return proizvodi.Any(e => e.ID == id);
+            return _context.Proizvod.Any(e => e.ID == id);
         }
     }
 }
