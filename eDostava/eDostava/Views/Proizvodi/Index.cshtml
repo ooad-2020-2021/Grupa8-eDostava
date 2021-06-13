@@ -7,8 +7,11 @@
 <h1>Proizvodi</h1>
 
 <p>
-    <a asp-action="Dodaj">Dodaj novi proizvod</a>
-    <a asp-action="Create">Dodaj novi</a>
+
+    <a asp-action="Create">Dodaj novi proizvod</a>
+
+    
+
 </p>
 <table class="table">
     <thead>
@@ -20,7 +23,9 @@
                 @Html.DisplayNameFor(model => model.Naziv)
             </th>
             <th>
+
                 @Html.DisplayNameFor(model => model.Kolicina)
+
             </th>
             <th></th>
         </tr>
@@ -35,6 +40,7 @@
                 @Html.DisplayFor(modelItem => item.Naziv)
             </td>
             <td>
+
                 @Html.DisplayFor(modelItem => item.Kolicina)
             </td>
             <td>

@@ -18,7 +18,7 @@ namespace eDostava.Models
         [Required]
         [RegularExpression(@"[A-Z|a-z| ]*")]
         public string Naziv { get; set; }
-        [Range(0.5, 15.0, ErrorMessage ="Kolicina mora biti u opsegu od 0 do 100!")]
+        [Range(0, 100.0, ErrorMessage ="Kolicina mora biti u opsegu od 0 do 100!")]
 
         [DisplayName("Količina")]
         public double Kolicina { get; set; }
