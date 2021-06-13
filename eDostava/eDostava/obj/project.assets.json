@@ -9666,19 +9666,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\xx\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\xx\\Source\\Repos\\ooad-2020-2021\\Grupa8-eDostava\\eDostava\\eDostava\\eDostava.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\ooad-2020-2021\\Grupa8-eDostava\\eDostava\\eDostava\\eDostava.csproj",
       "projectName": "eDostava",
-      "projectPath": "C:\\Users\\xx\\Source\\Repos\\ooad-2020-2021\\Grupa8-eDostava\\eDostava\\eDostava\\eDostava.csproj",
-      "packagesPath": "C:\\Users\\xx\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\xx\\Source\\Repos\\ooad-2020-2021\\Grupa8-eDostava\\eDostava\\eDostava\\obj\\",
+      "projectPath": "C:\\Users\\User\\Source\\Repos\\ooad-2020-2021\\Grupa8-eDostava\\eDostava\\eDostava\\eDostava.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Source\\Repos\\ooad-2020-2021\\Grupa8-eDostava\\eDostava\\eDostava\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\xx\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9753,7 +9753,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
