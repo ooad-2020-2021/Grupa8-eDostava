@@ -18,15 +18,15 @@ namespace eDostava.Models
         [Required]
         [RegularExpression(@"[A-Z|a-z| ]*")]
         public string Naziv { get; set; }
-        [Range(0.5, 15.0, ErrorMessage ="ECTS bodovi moraju biti u opsegu od 0.5 do 15.0")]
-        public double ECTS { get; set; }
+        [Range(0.5, 15.0, ErrorMessage ="Količina mora biti u opsegu od 0 do 100.0")]
+        public double Količina { get; set; }
 
         public Proizvod() { }
-        public Proizvod(int id, string ime, double ects)
+        public Proizvod(int id, string ime, double kolicina)
         {
             ID = id;
             Naziv = ime;
-            ECTS = ects;
+            Količina = kolicina;
         }
 
         [NotMapped]
