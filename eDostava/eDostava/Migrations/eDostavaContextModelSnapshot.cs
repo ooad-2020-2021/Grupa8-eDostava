@@ -22,7 +22,7 @@ namespace eDostava.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<double>("ECTS")
+                    b.Property<double>("Kolicina")
                         .HasColumnType("double");
 
                     b.Property<string>("Naziv")

@@ -1,22 +1,25 @@
 ﻿@model IEnumerable<eDostava.Models.Proizvod>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Proizvodi";
 }
 
-<h1>Index</h1>
+<h1>Proizvodi</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Dodaj novi</a>
 </p>
 <table class="table">
     <thead>
         <tr>
             <th>
+                @Html.DisplayNameFor(model => model.ID)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.Naziv)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.ECTS)
+                @Html.DisplayNameFor(model => model.Kolicina)
             </th>
             <th></th>
         </tr>
@@ -25,10 +28,13 @@
 @foreach (var item in Model) {
         <tr>
             <td>
+                @Html.DisplayFor(modelItem => item.ID)
+            </td>
+            <td>
                 @Html.DisplayFor(modelItem => item.Naziv)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.ECTS)
+                @Html.DisplayFor(modelItem => item.Kolicina)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |

@@ -10,7 +10,7 @@ namespace eDostava.Models
 {
     public class Proizvod
     {
-        [DisplayName("Redni broj:")]
+        [DisplayName("Broj proizvoda")]
         
         public int ID { get; set; }
 
@@ -18,15 +18,17 @@ namespace eDostava.Models
         [Required]
         [RegularExpression(@"[A-Z|a-z| ]*")]
         public string Naziv { get; set; }
-        [Range(0.5, 15.0, ErrorMessage ="ECTS bodovi moraju biti u opsegu od 0.5 do 15.0")]
-        public double ECTS { get; set; }
+        [Range(0.5, 15.0, ErrorMessage ="Kolicina mora biti u opsegu od 0 do 100!")]
+
+        [DisplayName("Količina")]
+        public double Kolicina { get; set; }
 
         public Proizvod() { }
-        public Proizvod(int id, string ime, double ects)
+        public Proizvod(int id, string ime, double kolicina)
         {
             ID = id;
             Naziv = ime;
-            ECTS = ects;
+            Kolicina = kolicina;
         }
 
         [NotMapped]

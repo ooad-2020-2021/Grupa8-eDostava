@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA3I6erTqjlEu4CXLitQIaKwAAAAACAAAAAAAQZgAAAAEAACAAAAAGJJIhwkSGWFQtgyULM1wJVEDhJtnmgjgBvDtrLpBw2wAAAAAOgAAAAAIAACAAAAB8WC6m9/tDNVgqWeGP8Rg+P8lwQLsH8RL7MTry+IQFRiAAAAA4/TVvrQ56uTjkUpCLG0cXNocyYO0whwiU7nupDDRvqEAAAACbuRfMdGUY4eMfe8yB4jmWDvswWHpitZ8hAMwXE1tdTH8AV3BcxM9F3qCGZIc8ckY2Ik4Lfjn4eL/XapvLSD2K</EncryptedPassword>
+    <History>True|2021-06-13T13:50:32.2833634Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="eDostavaContext">
+      <Value>Server=sql11.freesqldatabase.com%3bPort=3306%3bDatabase=sql11418707%3bUser=sql11418707%3bPassword=M6cI81bh3r%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
