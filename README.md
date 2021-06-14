@@ -109,3 +109,7 @@ Administrator web aplikacije je u mogućnosti da unosi nove, odnosno ažurira po
 * Gost
 * Korisnik
 * Administrator
+
+
+# Deployment (link):
+http://rijad24-001-site1.gtempurl.com/
